@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Zone Academy</title>
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--barra-->
+    <header id="barra">
+        <div class="container">
+            <div id="main-header" class="row">
+                <!--logo-->
+                <div id="logo" class="img-fluid">
+                    <a href=""><img src="img/logo.png" alt=""></a>
+                </div>
+                <!--logo-->
+                <!--menu-->
+                <nav id="menu">
+                    <ul class="row">
+                        <div class="opt">
+                            <li><a href="#section1">Nosotros</a></li>
+                        </div>
+                        <div class="opt">
+                            <li><a href="#section2">Programas</a></li>
+                        </div>
+                        <div class="opt">
+                            <li><a href="#main-footer">Contáctanos</a></li>
+                        </div>
+                    </ul>
+                </nav>
+                <!--menu-->
+            </div>
+        </div>
+    </header>
+    <!--barra-->
+
+    <main>
+        <!--main-banner-->
+        <figure id="main-banner" class="relative">
+            <!--title-->
+            <div id="principal" class="container">
+                <div class="row">
+                    <img src="img/logo-opaco.png" alt="">
+                    <h1>Live by a higher code</h1>
+                    <h3>Academia tecnológica de alto rendimiento.</h3>
+                </div>
+            </div>
+            <!--title-->
+            <div id="blur" class="absolute"></div>
+            <!--note-->
+            <figcaption id="main-banner-leyenda">
+                <div class="row">
+                    <h2>Pre-inscripciones<br>abiertas</h2>
+                    <a href="#section2" class="boton-vinculo alineacion-vertical">Developer Program</a>
+                </div>
+            </figcaption>
+            <!--note-->
+        </figure>
+        <!--main-banner-->
+
+        <!--section1-->
+        <div id="section1">
+            <div class="container">
+                <div class="row">
+                    <!--img-->
+                    <div class="imagen">
+                        <img src="img/sect1.png" alt="">
+                    </div>
+                    <!--img-->
+                    <!--texto-->
+                    <div class="texto alineacion-vertical">
+                        <h6>SOBRE NOSOTROS</h6>
+                        <h2>¿Qué es Dark Zone Academy?</h2>
+                        <p>Dark Zone Academy es una academia online de tecnología, la cual te<br>
+                        prepara para que seas un experto en la rama que sigues o deseas seguir.</p>
+                        <p>Para lograr ello, hemos elaborado rigurosos programas de<br>
+                        entrenamiento, cada uno con niveles desde el más básico, hasta el<br>
+                        más avanzado, es decir, no es necesario tener conocimientos previos<br>
+                        para inscribirte en nuestro nivel más básico.</p>
+                        <p id="final">Para las empresas, ofrecemos programas de capacitación<br>
+                        especializados según la necesidad y tecnología del área que ellos<br>
+                        deseen potenciar.</p>
+                    </div>
+                    <!--texto-->
+                </div>
+        </div>
+        </div>
+        <!--section1-->
+
+        <!--section2-->
+        <div id="section2">
+            <div class="container">
+                <div class="texto">
+                    <h6>NUESTROS PROGRAMAS</h6>
+                    <h2>Diseñados según lo que buscas</h2>
+                    <p>Contamos con 3 programas según tu perfil:</p>
+                </div>
+                <div class="row">
+                    <div id="vm1" class="caja relative">
+                        <img src="img/sct2-img1.png" alt="">
+                        <a class="button absolute" href="#popup1">Ver más</a>
+                    </div>
+                    <div class="caja relative">
+                        <img src="img/sct2-img2.png" alt="">
+                        <a class="boton-vinculo button proximamente absolute"><p>Próximamente</p></a>
+                    </div>
+                    <div id="vm2" class="caja relative">
+                        <img src="img/sct2-img3.png" alt="">
+                        <a class="button absolute" href="#popup2">Ver más</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!--section2-->
+
+        <!--popup1-->
+        <div id="popup1" class="overlay">
+            <div class="popup row-1">
+                <h2>Developer Program</h2>
+                <a class="close" href="#section2">&times;</a>
+                <div class="content row">
+                    <div id="thinkas" class="caja row-1">
+                        <h3>THINK AS DEVELOPER</h3>
+                        <p>Desarrollarás un pensamiento analítico, lógico y crítico;
+                            esencial para la resolución de problemas, tomando en cuenta todos los
+                            factores involucrados.  Serás capaz de analizar una casuística, diseñar
+                            un algoritmo, codificar, probar y compilar una solución de acuerdo a la
+                            necesidad.</p>
+                            <a href="./pdf/ThinkAsDeveloper.pdf" download="ThinkAsDeveloper.pdf" class="boton-vinculo alineacion-vertical">Descargar PDF</a>
+                    </div>
+                    <div id="beginner" class="caja row-1">
+                        <h3>BEGINNER</h3>
+                        <p>Serás capaz de dar soluciones a problemas reales utilizando
+                            conceptos, definiciones y principios de la Programación Orientada a Objetos
+                            (POO). Todo esto basado en un lenguaje de programación, el cual será
+                            definido según la tecnología que decidas seguir.</p>
+                            <a href="./pdf/BeginnerDeveloper.pdf" download="BeginnerDeveloper.pdf" class="boton-vinculo alineacion-vertical">Descargar PDF</a>
+                    </div>
+                    <div id="engineer" class="caja row-1">
+                        <h3>ENGINEER</h3>
+                        <p>En este curso aprenderás los patrones de diseño más requeridos en el
+                            día a día. Desarrollarás la habilidad y el criterio para aplicarlos,
+                            siendo capaz de analizar un problema y detectar qué patrón de diseño
+                            de software se ajusta más a la solución requerida para luego
+                            implementarlo con las mejores prácticas y estrategias.</p>
+                            <a href="./pdf/EngineerDeveloper.pdf" download="EngineerDeveloper.pdf" class="boton-vinculo alineacion-vertical">Descargar PDF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--popup1-->
+
+        <!--popup2-->
+        <div id="popup2" class="overlay">
+            <div class="popup row-1">
+                <h2>Dark Zone for schools</h2>
+                <a class="close" href="#section2">&times;</a>
+                <div class="content row">
+                    <div id="profesores" class="caja row-1">
+                        <h3>TECH-CAMP FOR MENTORS</h3>
+                        <p>Estos últimos años la tecnología se ha vuelto parte vital en nuestros
+                            días, por ello, es necesario que los profesores se pueden desenvolver
+                            en ella. Si eres un colegio y deseas impartir las bases de la programación
+                            en tus profesores, ¡Tech-Camp for Mentors es lo buscas! Tus docentes
+                            aprenderán los principios de la programación estructurada, desarrollando
+                            un pensamiento lógico y crítico para la resolución de problemas. Este
+                            curso no requiere de conocimientos previos.</p>
+                            <a href="./pdf/ThinkAsDeveloper-profesores.pdf" download="ForSchools-Mentors.pdf" class="boton-vinculo alineacion-vertical">Descargar PDF</a>
+                    </div>
+                    <div id="alumnos" class="caja row-1">
+                        <h3>TECH-CAMP FOR STUDENTS</h3>
+                        <p>Si eres un colegio y deseas aumentar los skills de tus alumnos, ¡Tech-Camp
+                            for Students es para ti! Diseñado para jóvenes estudiantes a partir de
+                            15 años. Aquí aprenderán los principios de la programación estructurada,
+                            desarrollando un pensamiento lógico y crítico para la resolución de
+                            problemas. Este bootcamp no requiere de conocimientos previos.</p>
+                            <a href="./pdf/Tech-Camp students.pdf" download="ForSchools-Students.pdf" class="boton-vinculo alineacion-vertical">Descargar PDF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--popup2-->
+    </main>
+
+    <!--main-footer-->
+    <footer id="main-footer">
+        <div class="container row-1">
+            <div id="fila1" class="row-2">
+                <div class="row-2">
+                    <!--redes-->
+                    <div id="redes-sociales" class="row-3">
+                        <!--texto-->
+                        <div class="texto">
+                            <p>Contáctanos</p>
+                        </div>
+                        <!--texto-->
+                        <!--linked-->
+                        <ul class="linked row col">
+                            <li><a href="https://www.linkedin.com/company/dark-zone-academy/" target="_blank"><i class="fab fa-linkedin-in fa-lg fa-fw"></i></a></li>
+                            <li><a href="https://www.instagram.com/darkzone.academy/" target="_blank"><i class="fab fa-instagram fa-lg fa-fw"></i></a></li>
+                            <li><a href="https://www.facebook.com/darkzone.academy" target="_blank"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a></li>
+                        </ul>
+                        <!--linked-->
+                    </div>
+                    <!--redes-->
+                    <!--cel-correo-->
+                    <div id="cel-correo" class="row-1">
+                        <div class="row-2">
+                            <i class="fas fa-phone"></i>+51 955 301 759
+                        </div>
+                        <div class="row-2">
+                            <i class="fas fa-envelope"></i>contacto.darkzone@gmail.com
+                        </div>
+                    </div>
+                    <div class="img-fluid">
+                        <img src="img/logo.png" alt="">
+                    </div>
+                    <!--cel-correo-->
+                </div>
+            </div>
+            <div id="fila2">
+                - @DarkZoneAcademy 2021 -
+            </div>
+        </div>
+    </footer>
+    <!--main-footer-->
+
+
+
+    <!--flotantes-->
+    <a href="#" id="ir-arriba"><i class="fas fa-arrow-up fa-1x"></i></a>
+    <a href="http://wa.me/51955301759" id="whatsapp" target="blank"><i class="fab fa-whatsapp fa-1x"></i></a>
+    <!--flotantes-->
+
+</body>
+</html>
